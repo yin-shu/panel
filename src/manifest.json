@@ -1,0 +1,26 @@
+{
+  "name": "panel",
+  "description": "小巧精美的新扩展页插件，紧跟时代的你，不容错过全网热点",
+  "version": "0.0.2",
+  "manifest_version": 2,
+  "icons": {
+    "48": "icons/icon_48.png",
+    "128": "icons/icon_128.png"
+  },
+  "browser_action": {
+    "default_title": "panel",
+    "default_popup": "tab/tab.html"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "chrome_url_overrides": {
+    "newtab": "tab/tab.html"
+  },
+  "permissions": [
+    "https://*/",
+    "http://*/"
+  ]  
+}

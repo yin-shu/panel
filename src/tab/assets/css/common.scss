@@ -1,0 +1,11 @@
+.module {
+  width: 24%;
+  margin-right: 1%;
+  margin-bottom: 1%;
+}
+@media (max-width: 1024px) {
+  .module {
+    width: 32.2%;
+  }
+}
+
